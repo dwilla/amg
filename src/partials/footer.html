@@ -1,0 +1,39 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <p><strong style="color:rgba(255,255,255,0.95)">Acute Medical Gas Services, Inc.</strong></p>
+                <p>470 Mast Road, Suite B<br>Goffstown, NH 03045</p>
+            </div>
+            <div class="column">
+                <p><strong style="color:rgba(255,255,255,0.95)">Contact</strong></p>
+                <p>
+                    24 Hour Phone: <a href="tel:16034873800">1-603-487-3800</a><br>
+                    Email: <a href="mailto:Support@AcuteMedGas.com">Support@AcuteMedGas.com</a>
+                </p>
+            </div>
+            <div class="column">
+                <p><strong style="color:rgba(255,255,255,0.95)">Quick Links</strong></p>
+                <p>
+                    <a href="services.html">Our Services</a><br>
+                    <a href="products.html">Products &amp; Equipment</a><br>
+                    <a href="training.html">Training</a><br>
+                    <a href="contact.html">Contact Us</a>
+                </p>
+            </div>
+        </div>
+        <hr style="border-color:rgba(255,255,255,0.15); margin:1rem 0 0.75rem;">
+        <div class="has-text-centered">
+            <p>Copyright &copy; 2018 Acute Medical Gas Services, Inc. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<script>
+    document.querySelectorAll('.navbar-burger').forEach(function(burger) {
+        burger.addEventListener('click', function() {
+            var target = document.getElementById(burger.dataset.target);
+            burger.classList.toggle('is-active');
+            if (target) target.classList.toggle('is-active');
+        });
+    });
+</script>
